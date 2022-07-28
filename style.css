@@ -33,13 +33,9 @@ a:hover {
     align-items: center;
     justify-content: space-between;
 }
-.nav-accueil1{
-    position: relative;
-    left: 100px;
-}
 .header-page2{
     display: flex;
-    width: 90%;
+    width: 88%;
     justify-content: space-between;
     align-items: center;
 
@@ -72,7 +68,9 @@ a:hover {
     right: 20px;
 }
 .nav-accueil{
-    font-size: 20px
+    font-size: 20px;
+    color: black !important;
+    
 }
 .nav-page2{
     position: relative;
@@ -697,6 +695,7 @@ a {
 .row-form{
     display: flex;
     align-items: flex-end;
+    flex-wrap: wrap;
     
 }
 .hero-bloc-text {
@@ -765,7 +764,9 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-
+.fa:hover{
+    color: black!important;
+}
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -820,6 +821,11 @@ h4 {
     align-items: center;
     position: relative;
     top: 20px;
+}
+.footer2{
+    font-size: 15px;
+    color: black!important;
+    height: 50px;
 }
 .ul-footer{
     list-style-type: none;
