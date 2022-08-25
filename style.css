@@ -74,7 +74,7 @@ a:hover {
     padding-right: 0;
 }
 .page1{
-    width: 95%;
+    width: 100%;
 }
 .page2{
     position: relative;
@@ -248,12 +248,9 @@ a:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
-
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
+.img-size{
+    width: 65%;
 }
-
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
