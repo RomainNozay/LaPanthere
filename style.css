@@ -34,7 +34,7 @@ a:hover {
 .header-page {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 @media screen and (max-width:767px) {
@@ -46,23 +46,30 @@ a:hover {
 
 .header-page2 {
     display: flex;
-    width: 88%;
-    justify-content: space-between;
     align-items: center;
 
 }
 
 .logo {
-    display: flex;
-    width: 300px;
+    width: 70%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-contact{
+    width: 50%;
 }
 
 @media screen and (max-width: 767px) {
-    .logo {
-        width: 100%;
-        display: flex;
-        justify-content: center;
+    .logo-contact {
+        width: 65%;
+        min-width: 200px;
     }
+}
+
+.accueil-link{
+    width: 100%;
 }
 
 .bloc {
@@ -116,7 +123,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 20px 0px;
 }
 
 .bg-center,
@@ -265,7 +272,7 @@ a:hover {
 }
 
 .img-size {
-    width: 65%;
+    width: 100%;
 }
 
 .d-bloc .panel button:hover,
@@ -823,6 +830,11 @@ p {
     font-size: 15px;
 }
 
+.tight-width-whitespace-contact {
+    margin: auto auto auto auto;
+    font-size: 15px;
+}
+
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
@@ -885,6 +897,7 @@ h4 {
 }
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -965,11 +978,14 @@ h4 {
     color: #FFFFFF !important;
 }
 
+.footer{
+    padding-bottom: 1px;
+}
+
 @media screen and (max-width: 767px) {
     .contact {
         width: 100%;
         display: flex;
-        justify-content: center;
     }
 
     .ltc-white {
