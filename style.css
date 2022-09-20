@@ -146,9 +146,7 @@ a:hover {
     background: repeat;
 }
 
-.bg-t-edge {
-    background: top no-repeat;
-}
+
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.webp");
